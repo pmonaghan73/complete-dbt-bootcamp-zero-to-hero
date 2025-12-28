@@ -1,9 +1,11 @@
-dbtlearn/package-lock.yml
-dbtlearn/target/
-dbtlearn/dbt_packages/
+airbnb/package-lock.yml
+airbnb/target/
+airbnb/dbt_packages/
+airbnb/dbt_internal_packages/
 
 archive
 dbt_dagster_project/tmp*
+airbnb/profiles.yml
 
 logs/
 venv/
@@ -11,3 +13,9 @@ venv/
 **/__pycache__/
 *.pyc
 tmp*/
+
+/my_dbt_dagster_project
+
+.claude
+.user.yml
+.DS_Store
